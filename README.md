@@ -1,20 +1,38 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Neon Survivor
 
-# Run and deploy your AI Studio app
+A fast-paced arcade survival game built with React and Vite. Survive endless waves of enemies, collect experience gems, and upgrade your abilities in a vibrant neon world.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/c5f5766d-3468-4d33-8d89-92bad18286cf
+*   **Endless Survival:** Face increasingly difficult waves of enemies.
+*   **Dynamic Upgrades:** Level up to choose from various power-ups (Spread Shot, Piercing, Attack Speed, Movement Speed).
+*   **Neon Visuals:** Enjoy a retro-futuristic aesthetic with glowing particle effects.
+*   **Auto-Shooting:** Focus on movement and dodging while your character automatically targets the nearest enemies.
 
-## Run Locally
+## How to Play
 
-**Prerequisites:**  Node.js
+*   **Movement:** Use `W`, `A`, `S`, `D` or the `Arrow Keys` to move your character.
+*   **Combat:** Your character attacks automatically. Keep your distance from enemies!
+*   **Leveling Up:** Collect the glowing gems dropped by defeated enemies to gain XP. When the XP bar fills up, choose an upgrade to become stronger.
 
+## Local Development
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+To run this game locally on your machine:
+
+1.  Clone the repository.
+2.  Install dependencies:
+    ```bash
+    npm install
+    ```
+3.  Start the development server:
+    ```bash
+    npm run dev
+    ```
+4.  Open your browser and navigate to the local URL provided in the terminal (usually `http://localhost:3000` or `http://localhost:5173`).
+
+## Technologies Used
+
+*   React
+*   Vite
+*   Tailwind CSS
+*   HTML5 Canvas (for rendering)
